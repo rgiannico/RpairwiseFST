@@ -32,13 +32,14 @@ Pairwise FST by population table and plot starting from vcf file
 > This is an example of paiwise FST table with invented values just to match the example metadata table above and the Arlequin's plot below
 
 - Arlequin's plot example:
-![Pairwise matrix plot example](https://www.researchgate.net/profile/Vincenzo_Landi/publication/239065621/figure/fig1/AS:216493619978265@1428627509650/Graphic-representation-of-the-matrix-depicting-pairwise-FST-distances-among-the-17-pig.png)
 
-> This plot is an example of a pairwise FSTplot from this paper [Luis T Gama et. Al](https://gsejournal.biomedcentral.com/articles/10.1186/1297-9686-45-18). Arlequin's pairFstMatrix.r function used here produces this kind of output. 
+<img src="https://www.researchgate.net/profile/Vincenzo_Landi/publication/239065621/figure/fig1/AS:216493619978265@1428627509650/Graphic-representation-of-the-matrix-depicting-pairwise-FST-distances-among-the-17-pig.png" width="400">
+
+> This plot is an example of a pairwise FSTplot from [Gama et. al. 2013](https://gsejournal.biomedcentral.com/articles/10.1186/1297-9686-45-18) paper. Arlequin's pairFstMatrix.r function used here produces this kind of output. 
 
 ### Notes: 
 - **FST calculation**  is performed using "SNPRelate" bioconductor  Rpackage
 - **Pairwise FST matrix PLOT** : is performed using Arlequin's pairFstMatrix.r (Author: Heidi Lischer) with very few edits 
-- **Negative Fst** are technical artifact of the computation (see Roesti el al. 2012) and are automatically replaced with zero.
+- **Negative Fst** are technical artifact of the computation (see [Roesti el al. 2012](https://bmcevolbiol.biomedcentral.com/articles/10.1186/1471-2148-12-94)) and are automatically replaced with zero.
 
 **Author:** Riccardo Giannico - **Date:** 2017
