@@ -21,6 +21,7 @@ library("SNPRelate")
 vcf.infile<-"all.filtered.vcf"
 metadata.infile<- "metadata.txt" # note: metadata file has to be a tab separated input text file with a "samples" column and a "pop" column
 transformNegativeFSTtozero<- TRUE
+keepLowerTriangularMatrixOnly<- TRUE
 
 #########
 # Parsing VCF file 
@@ -98,6 +99,12 @@ if (transformNegativeFSTtozero==TRUE){
       if (res[i,j]<0){res[i,j]<-0} 
     }
   }
+}
+
+# keep only the lower triangular matrix
+# (set the upper triangular to zero)
+if(keepLowerTriangularMatrixOnly == TRUE){
+  res[upper.tri(res)]<-0
 }
 
 
