@@ -23,7 +23,7 @@ Pairwise FST by population table and plot starting from vcf file
 - Pairwise FST matrix example:
 
 
-| a       | BIS     | CEL | CHM |
+|        | BIS     | CEL | CHM |
 |:--:|:---------:|:--:|:--:|
 | **BIS**| 0|0.15 |0.22|
 | **CEL**| 0.15|0 |0.26|
@@ -35,7 +35,7 @@ Pairwise FST by population table and plot starting from vcf file
 
 <img src="https://www.researchgate.net/profile/Vincenzo_Landi/publication/239065621/figure/fig1/AS:216493619978265@1428627509650/Graphic-representation-of-the-matrix-depicting-pairwise-FST-distances-among-the-17-pig.png" width="400">
 
-> This plot is an example of a pairwise FSTplot from [Gama et. al. 2013](https://gsejournal.biomedcentral.com/articles/10.1186/1297-9686-45-18) paper. Arlequin's pairFstMatrix.r function used here produces this kind of output. 
+> This plot is an example of a pairwise FSTplot from [Gama et. al. 2013](https://gsejournal.biomedcentral.com/articles/10.1186/1297-9686-45-18) paper. The Arlequin's pairFstMatrix.r function used here produces this kind of output. 
 
 ### Notes: 
 - **FST calculation**  is performed using "SNPRelate" bioconductor  Rpackage
